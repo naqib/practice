@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NullObjectPattern.Model;
+using System;
 
 namespace NullObjectPattern
 {
@@ -10,6 +7,14 @@ namespace NullObjectPattern
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter car name:");
+            var carName = Console.ReadLine();
+
+            var bmw = VehichleHelper.Find(carName);
+            bmw.Start();
+            bmw.Stop();
+
+            Console.ReadKey();
         }
     }
 }

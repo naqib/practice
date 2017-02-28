@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\NoCar.cs" />
+    <Compile Include="Model\Tata.cs" />
+    <Compile Include="Model\Ferrari.cs" />
+    <Compile Include="Model\Bmw.cs" />
+    <Compile Include="Model\Interface\IVehichle.cs" />
+    <Compile Include="Model\VehichleHelper.cs" />
+    <Compile Include="Model\VehichleStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
